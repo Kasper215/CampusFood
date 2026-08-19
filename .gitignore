@@ -13,7 +13,7 @@ out/
 .env.local
 .env.*
 
-# IDE specific
+# IDE files
 .vscode/
 .idea/
 *.swp
@@ -22,42 +22,27 @@ out/
 # Logs
 *.log
 
-# Python (if applicable)
+# Python cache (if present)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-*.so
-.Python
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
 
-# OS generated
-.DS_Store
-Thumbs.db
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
 # Temporary files
 *.tmp
 *.temp
-*.bak
 
-# Archives
-*.zip
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.7z
-*.rar
-*.gz
-*.bz2
-*.xz
-*.zst
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 ```
